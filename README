@@ -1,0 +1,10 @@
+This sketch is built for only ATmega328p based Arduino boards. Compatibility with any other microcontrollers is coincidental and may not be maintained in the future.
+
+Recommended circuit (tested on an Arduino UNO R3):
+
+	GND, R1, C1, Oscilloscope Ground/0Vref
+	R1, R2, C1, Oscilloscope CH1
+	R2, Digital Pin 9/PB1
+	Digital Pin 8, Oscilloscope CH2
+
+CH2 of the scope can be used as a trigger for the beginning of the image. The trigger threshold should be around 3V
